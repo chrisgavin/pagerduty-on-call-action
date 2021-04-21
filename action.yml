@@ -1,0 +1,12 @@
+name: PagerDuty On-Call Action
+description: A GitHub Action to get the person who's currently on-call in a PagerDuty schedule.
+runs:
+  using: node12
+  main: ./bootstrap-shim.js
+inputs:
+  pagerduty-icalendar-url:
+    description: The URL of the schedule calendar.
+    required: true
+outputs:
+  email:
+    description: The email of the person currently on-call.
