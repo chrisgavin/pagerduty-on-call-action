@@ -1,0 +1,23 @@
+{
+	"name": "pagerduty-on-call-action",
+	"version": "0.0.0",
+	"description": "A GitHub Action to get the person who's currently on-call in a PagerDuty schedule.",
+	"scripts": {
+		"build": "tsc",
+		"lint": "eslint ./src/",
+		"bootstrap": "npm install && npm run build && npm prune --production"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"@actions/core": "^1.2.4",
+		"moment": "^2.29.1",
+		"node-ical": "^0.12.9"
+	},
+	"devDependencies": {
+		"@tsconfig/node12": "^1.0.7",
+		"@typescript-eslint/eslint-plugin": "^4.18.0",
+		"@typescript-eslint/parser": "^4.18.0",
+		"eslint": "^7.22.0",
+		"typescript": "^3.9.9"
+	}
+}
