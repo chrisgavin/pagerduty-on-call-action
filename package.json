@@ -9,15 +9,14 @@
 	},
 	"license": "MIT",
 	"dependencies": {
-		"@actions/core": "^1.2.4",
-		"moment": "^2.29.1",
+		"@actions/core": "^1.10.0",
+		"moment": "^2.29.4",
 		"node-ical": "^0.12.9"
 	},
 	"devDependencies": {
-		"@tsconfig/node12": "^1.0.7",
-		"@typescript-eslint/eslint-plugin": "^4.18.0",
-		"@typescript-eslint/parser": "^4.18.0",
-		"eslint": "^7.22.0",
-		"typescript": "^3.9.9"
+		"@tsconfig/node16": "^1.0.3",
+		"@typescript-eslint/eslint-plugin": "^5.42.0",
+		"eslint": "^8.24.0",
+		"typescript": "^4.8.4"
 	}
 }
